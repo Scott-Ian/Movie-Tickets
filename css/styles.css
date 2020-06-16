@@ -1,0 +1,13 @@
+#results {
+  display: none;
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+span{
+  font-weight: bold;
+}
+
+.jumbotron {
+  text-align: center;
+}

@@ -12,9 +12,9 @@ Ticket.prototype.assignTicketPrice = function () {
     this.price = 12;
   }
 
-  if (this.movieTime === "evening") {
+  if (this.movieTime === "Evening") {
     this.price += 3;
-  } else if (this.movieTime === "morning") {
+  } else if (this.movieTime === "Morning") {
     this.price -= 2;
   }
 

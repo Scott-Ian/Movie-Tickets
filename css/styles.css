@@ -1,7 +1,8 @@
 #results {
   display: none;
   margin-top: 30px;
-  font-size: 18px;
+  font-size: 25px;
+  color: white;
 }
 
 span{
@@ -10,4 +11,16 @@ span{
 
 .jumbotron {
   text-align: center;
+  background-color: #DC143C;
+  color: white;
+}
+
+label {
+  color: #DC143C;
+}
+
+body {
+  background-image: url("../img/theater1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }

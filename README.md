@@ -34,12 +34,10 @@ _{Tell me about the languages and tools you used to create this app. Assume that
 
 | |Behavior|Input|Output|isComplete
 |----|----|----|----|----|
-|1.| The program collects the following input data and stores it within a ticket purchase object: Movie Name, Time of Day, Relative Age of Guest| Coding in New Hampton: The life of everyday Coder Heroes!, Morning, Senior | No Output| _False_
-|2.| The program generates a price based on time of day, if the movie is first relesae, and guest age, and stores this price within the ticket purchase object.| Coding in New Hampton: The life of everyday Coder Heroes!, Morning, Senior| Output| _False_
-|3.| The program displays the expected price of the ticket to the user in the HTML| Coding in New Hampton: The life of everyday Coder Heroes!, Morning, Senior| Price: $8| _False_
-|4.| The program will not allow child guests to purchase tickets for mature rated movies| Coding in New Hampton: The life of everyday Coder Heroes!, Morning, Child| You must be 24 years of age to view this movie| _False_
-
-|5.| Behavior | Input| Output| _False_
+|1.| The program collects the following input data and stores it within a ticket purchase object: Movie Name, Time of Day, Relative Age of Guest| Coding in New Hampton: The life of everyday Coder Heroes!, Morning, Senior | No Output| _True_
+|2.| The program generates a price based on time of day, if the movie is first relesae, and guest age, and stores this price within the ticket purchase object.| Coding in New Hampton: The life of everyday Coder Heroes!, Morning, Senior| Output| _True_
+|3.| The program displays the expected price of the ticket to the user in the HTML| Coding in New Hampton: The life of everyday Coder Heroes!, Morning, Senior| Price: $8| _True_
+|4.| The program will not allow child guests to purchase tickets for mature rated movies| Coding in New Hampton: The life of everyday Coder Heroes!, Morning, Child| You must be 24 years of age to view this movie| _True_
 
 
 ### License

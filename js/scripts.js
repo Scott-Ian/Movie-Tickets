@@ -4,8 +4,7 @@ function Ticket (movie, movieTime, age) {
   this.age = age;  
 }
 
-Ticket.prototype.assignTicketPrice = function () {
-  
+Ticket.prototype.assignTicketPrice = function () { 
   if (this.movie.isNewRelease) {
     this.price = 15;
   } else {
@@ -24,7 +23,7 @@ Ticket.prototype.assignTicketPrice = function () {
 }
 
 Ticket.prototype.ageRestricted = function () {
-  if (this.age <= this.movie.minAge) {
+  if (this.age < this.movie.minAge) {
     return false;
   } else {
     return true;
@@ -38,7 +37,6 @@ function Movie (title, isNewRelease, minAge) {
 }
 
 function movieSelector (movieName) {
-
   const movie1 = new Movie("Forest Gump", false, 13);
   const movie2 = new Movie("Frozen", false, 0);
   const movie3 = new Movie("Train to Busan", true, 18);
